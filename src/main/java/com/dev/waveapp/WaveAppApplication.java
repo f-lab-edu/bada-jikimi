@@ -19,4 +19,9 @@ public class WaveAppApplication {
         return "Hello World!!";
     }
 
+    @GetMapping(value = "/jenkins")
+    public String jenkinsCall() {
+        return "Hello Jenkins!!";
+    }
+
 }
