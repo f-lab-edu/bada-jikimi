@@ -18,10 +18,4 @@ public class WaveAppApplication {
     public String helloWorld() {
         return "Hello World!!";
     }
-
-    @GetMapping(value = "/jenkins")
-    public String jenkinsCall() {
-        return "Hello Jenkins!!";
-    }
-
 }
